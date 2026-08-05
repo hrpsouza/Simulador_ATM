@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador ATM</title>
+    <!-- Ligando o arquivo CSS externo -->
+    <link rel="stylesheet" href="estilos.css">
+</HEAD>
+<BODY>
+<div class="container" style="color: greenyellow">
+  <h1 class="page-title">
+    (SIMULADOR DE) CAIXA ELETRÔNICO <br>
+   <!-- APERTE QUALQUER TECLA PARA INICIAR -->
+    
+  </h1>
+  <div class="inst inicial"
+  EM QUE PODEMOS AJUDAR?<br><br>
+se FOR TAREFA QUE retira DINHEIRO DA MÁQUINA PARA CLIENTE, então DIGITE AS TECLAS "0" e "ENTER"<br><br>
+se FOR TAREFA QUE coloca ENVELOPE NA MÁQUINA, então DIGITE AS TECLAS "1" e "ENTER"<br><br>
+se FOR TAREFA DIFERENTE DAS ANTERIORES, então DIGITE AS TECLAS "2" e "ENTER"<br><br>
+  </div>
+<label for="TarefaInicialInformada">POR FAVOR, DIGITE ENTÃO "0", "1" OU "2" E DEPOIS "ENTER":</label><br>
+  <input type="number" id="tarefaInicial" size="2" /><br>
+  <button type="submit" id="ENTER" onclick="EscolherTarefaInicial()">ENTER</button>
+	<script src="funcoes.js"></script>
+  <h2 id="TarefaInicialInformada"></h2>
+</div>
+<BODY>
+</HTML>
